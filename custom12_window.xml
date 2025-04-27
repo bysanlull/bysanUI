@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom12_window</Name>
+        <WindowId>custom12_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>380</Width>
+        <Height>426</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>10</MinWidth>
+        <MinHeight>10</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>380</Width>
+            <Height>426</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>380</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>380</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Eden Shards</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <!--Commands-->
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>18</Y>
+            </Position>
+            <TemplateName>dlg_background_sep2</TemplateName>
+            <Width>53</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1103</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>126</Y>
+            </Position>
+            <TemplateName>dlg_background_sep2</TemplateName>
+            <Width>56</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1104</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>21</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Eden Shards are a form of currency that cannot be traded to other players.</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1105</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>33</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>You can buy the following with Eden Shards:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1106</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>45</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Respec Stones</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1107</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>67</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Weapon Enamels</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1108</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>56</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Tinctures</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1109</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>78</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>High level boss items</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1110</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>89</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Special crafting items</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1111</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>102</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Eden Shards drops from dragons, bosses and 60+ mobs in Epic Dungeons,</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>6</X>
+                <Y>114</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Epic Zones, SI dungeons and RvR Zones.</Data>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>131</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>380</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>135</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>380</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Commands</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1112</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>165</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/train</Data>
+            <Adapter>/train</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1113</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>152</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Train anywhere without seeing your trainer:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1114</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>188</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/LFxp and /LFrvr</Data>
+            <Adapter>/challenge</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1115</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>176</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>760</Width>
+            <Height>16</Height>
+            <MaxCharacters>256</MaxCharacters>
+            <Data>Autogrouping with others looking for RvR or XP:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1117</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>212</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1118</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>200</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Commands to quickly move items:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1119</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>222</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem &lt;source slot&gt; &lt;target slot&gt;</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1120</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>233</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem totarget &lt;amount&gt; &lt;item name&gt;</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1121</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>244</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem totarget #bag1|#bag2|#bag3|#bag4|#bag5</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1122</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>255</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem fromtarget &lt;amount&gt; &lt;item name&gt;</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1123</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>266</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem sell &lt;amount&gt; &lt;item name&gt;</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1124</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>277</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem sell #bag1|#bag2|#bag3|#bag4|#bag5</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1125</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>300</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/bg loot chest</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1126</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>289</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Various commands for endgame PvE raids:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1128</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>312</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Various random commands:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1127</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>323</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/random</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1129</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>334</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/random record &lt;number&gt;</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1130</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>345</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/random stop</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1131</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>356</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/random list</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1135</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>367</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Command to automatically repeat next recipe.</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1134</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>378</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/craftqueue</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1136</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>389</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/craftqueue &lt;times&gt;</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1137</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>400</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/craftqueue &lt;quality&gt;%</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1138</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>411</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/craftqueue buy (upto) &lt;n&gt;</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>button_tab_ph</TemplateName>
+            <Label>EXT</Label>
+            <Adapter>ToggleCustom12</Adapter>
+            <OnClickEvent>ToggleCustom12</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

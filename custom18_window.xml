@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Editiert mit dem DAoC User Interface Editor v1.80 -->
+<!-- @@ Kostenloser Download erhältlich auf http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom18_window</Name>
+        <WindowId>custom18_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>112</Width>
+        <Height>95</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>10</MinWidth>
+        <MinHeight>10</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>16</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>g_reverse_red_barbox</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>90</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11b</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health6</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>16</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>5</Rows>
+            <Columns>6</Columns>
+            <BaseAdapterName>group_6icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>18</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>63</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Adapter>group_name6</Adapter>
+        </LabelDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_6_power</ControlId>
+            <Position>
+                <X>8</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_green</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+            <Height>95</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_6_endurance_top</ControlId>
+            <Position>
+                <X>8</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_greentop</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+            <Height>26</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <ControlId>member_6_power</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>g_vstatus_yellow</TemplateName>
+            <AdapterName>group_power6</AdapterName>
+            <Height>95</Height>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember6</OnClickEvent>
+            <Width>112</Width>
+            <Height>95</Height>
+        </InvisibleButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>10</X>
+                <Y>10</Y>
+            </Position>
+            <TemplateName>button_tab</TemplateName>
+            <Label>CLOSE</Label>
+            <OnClickEvent>ToggleCustom18</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

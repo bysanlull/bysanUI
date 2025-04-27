@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <StatusIconTemplate>
+        <Name>attack_mode_w</Name>
+        <TextureName>AttackMode</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>254</Y>
+        </TextureStart>
+        <Width>598</Width>
+        <Height>1</Height>
+        <MaxLevels>2</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>attack_mode_h</Name>
+        <TextureName>AttackMode</TextureName>
+        <TextureStart>
+            <X>6</X>
+            <Y>0</Y>
+        </TextureStart>
+        <Width>1</Width>
+        <Height>25</Height>
+        <MaxLevels>2</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <WindowTemplate>
+        <Name>float_target_window</Name>
+        <WindowId>float_target</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>600</Width>
+        <Height>29</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!-- TargetbarWidth -->
+
+
+        <!-- TargetbarHeight -->
+
+
+        <StatusBarDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>floating_targetbar_29</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>600</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>44</X>
+                <Y>8</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont14pxst</FontName>
+            <Width>145</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <ColorAdapter>summary_target_color</ColorAdapter>
+            <Adapter>summary_target</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>10</X>
+                <Y>8</Y>
+            </Position>
+            <FontName>_whatisthisfont14pxst</FontName>
+            <Width>32</Width>
+            <Height>16</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_target_hits</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId>attackmode</ControlId>
+            <Position>
+                <X>1</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>attack_mode_w</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>attackmode</ControlId>
+            <Position>
+                <X>1</X>
+                <Y>23</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>attack_mode_w</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>attackmode</ControlId>
+            <Position>
+                <X>1</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>attack_mode_h</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>attackmode</ControlId>
+            <Position>
+                <X>598</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>attack_mode_h</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>
