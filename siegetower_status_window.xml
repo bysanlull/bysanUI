@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>siegetower_status</Name>
+        <WindowId></WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>101</TitleWidth>
+        <TitleHeight>14</TitleHeight>
+        <Width>101</Width>
+        <Height>43</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>chat_entry</TemplateName>
+            <Width>101</Width>
+            <Height>43</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
+                <A>255</A>
+            </Color>
+            <FontName>mini7</FontName>
+            <Width>101</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Keep Name</Data>
+            <Adapter>siegetower_status_title</Adapter>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>18</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>button_tab</TemplateName>
+            <Label>REPAIR</Label>
+            <OnClickEvent>KeepStatusRepair</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

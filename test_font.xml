@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <!-- Load Chat Font -->
+
+
+    <TTFFont>
+        <Name>Generic_Font</Name>
+        <File>custom/Assets/Fonts/bahnschrift.ttf</File>
+        <Height>13</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>0</Hint>
+    </TTFFont>
+
+
+</Root_Element>
